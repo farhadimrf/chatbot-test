@@ -13,9 +13,9 @@ React Chat is a simple project for testing and integrating the "react-chatbot-ta
 To get started with the React Chat project, follow these steps:
 
 ```bash
-git clone https://github.com/farhadimrf/react-chat.git
+git clone https://github.com/farhadimrf/chatbot-test.git
 
-cd react-chat
+cd chatbot-test
 
 npm install
 ```
