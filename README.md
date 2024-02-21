@@ -29,3 +29,43 @@ npm run dev
 
 yarn dev
 ```
+
+## Ducument
+
+in this test chatbot test
+first install package from npm
+
+```basg
+npm install react-chatbot-task
+```
+
+then install tailwind
+
+```basg
+npm install tailwind
+```
+
+after installation add tailwind content reader to `tailwind.config.ts`
+
+```bash
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+   content: [
+   ///,
+      "./node_modules/react-chatbot-task/**/*.{js,ts,jsx,tsx,mdx}",
+   ],
+   plugins: [],
+};
+export default config;
+```
+
+then run app
+
+```bash
+npm run dev
+
+# or
+
+yarn dev
+```
